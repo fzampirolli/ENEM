@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fd5715eb-d2e7-43b6-b5a9-87e56c1be512" name="vision" url="http://vision.ufabc.edu.br/MCTest/public/ENEM">
+        <fileTransfer rootFolder="/home/fz/ENEM" accessType="SFTP" host="vision.ufabc.edu.br" port="22" sshConfigId="e8705792-6fce-4a64-a521-8b85aa652490" sshConfig="fz@vision.ufabc.edu.br:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="22b46fe3-7f2b-4e6a-98b8-592386c2f752" name="mctest" url="http://mctest.ufabc.edu.br:8000/ENEM">
+        <fileTransfer rootFolder="/home/ufabc/ENEM" accessType="SFTP" host="mctest.ufabc.edu.br" port="22" sshConfigId="77140b70-01b9-4367-bef7-033162990af7" sshConfig="ufabc@mctest.ufabc.edu.br:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

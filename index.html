@@ -1,0 +1,130 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>ENEM Interativo</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+  <style>
+    #header {
+      background-color: darkseagreen;
+      color: black;
+      text-align: center;
+      padding: 5px;
+    }
+
+    #nav {
+      text-align: center;
+      line-height: 30px;
+      background-color: #eeeeee;
+      height: 480px;
+      width: 100px;
+      float: left;
+      padding: 5px;
+    }
+
+    #section {
+      width: 60%;
+      float: left;
+      padding: 10px;
+    }
+
+    #footer {
+      background-color: darkseagreen;
+      color: white;
+      clear: both;
+      text-align: center;
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="header">
+  <h1>ENEM Interativo</h1>
+</div>
+
+<div id="nav">
+  Interativo:
+  <a href="./2019" target="_blank">2019</a><br>
+
+</div>
+
+<div id="section">
+
+  <h2>Microdados do ENEM</h2>
+
+  <p>Este portal tem como objetivo deixar os exames do ENEM interativos.</p>
+  <p>O estudante pode ver as questões no formato do ENEM, seus acertos, <a href="statistics.html">estatísticas</a>, etc.
+  </p>
+
+  <p>Errar as questões *fáceis* é muito pior do que as difíceis
+    <span style="color: dodgerblue">(pela Teoria de Resposta ao Item utilizada pelo ENEM
+      para atribuir as habilidades/pontuações de cada candidato)</span>! <a
+      href="https://www.loom.com/share/658b8e7a2e214252a950326b73bbef92">Veja um vídeo explicativo.</a></p>
+
+  <p>Navegue pelo ano à esquerda e abra os arquivos com os exames interativos.</p>
+
+  <p>Bons Estudos!</p>
+
+  <p><span style="color: #074a8d; font-size: 12px">Fontes: <a
+    href="https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem" target="_blank">INEP</a>,
+    <a href="https://github.com/pdf2htmlEX/pdf2htmlEX" target="_blank">pdf2htmlEX</a> e
+      <a href="https://cran.r-project.org/web/packages/ltm" target="_blank">ltm</a></p>
+
+  <hr>
+
+  <p>Ajude a melhorar esse serviço gratuito:
+    <a href="https://levantamento.ufabc.edu.br/index.php/293112" target="_blank">Formulário</a> ou
+    <a href="mailto:fzampirolli@ufabc.edu.br" target="_blank">Email</a><br>
+    <span style="color: dodgerblue; font-size: 12px">
+      Disponibilidade de anos anteriores, se retorno positivo neste formulário.<br>
+    <a href="working.html">Trabalhos futuros.</a></span>
+  </p>
+
+
+</div>
+
+<div id="footer">
+  <a href="https://www.gnu.org/licenses/agpl-3.0.html"><img
+    src="./img/agplv3.png" style="width:60px;height:30px;"></a>
+  Copyright © 2021 - <a href="http://www.ufabc.edu.br"><img
+  src="./img/logotipo-ufabc-lateral.png" style="width:80px;height:80px;"></a>
+</div>
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-8052538-1', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
