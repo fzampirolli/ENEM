@@ -32,7 +32,8 @@ import sys
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from pyirt import irt
+
+#from pyirt import irt
 
 
 def printM(m):
@@ -148,7 +149,7 @@ def genStatistics(pasta):
             print(file)
             mat = enem_to_mat(file, df0.to_numpy())
 
-names = [str(i).zfill(4) for i in range(2014, 2020)]
+names = [str(i).zfill(4) for i in range(2014, 2021)]
 for pasta in range(len(sys.argv)):
   if sys.argv[pasta] in names:
     print(sys.argv[-1])

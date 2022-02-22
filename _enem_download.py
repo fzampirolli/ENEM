@@ -25,14 +25,15 @@ GNU General Public License for more details.
 =====================================================================
 '''
 
-# Sintaxe: python enem_download.py 2019
+# Sintaxe: python _enem_download.py 2020
 
 import os
 import re
 import sys
 import zipfile
 
-microdados = ['https://download.inep.gov.br/microdados/microdados_enem_2019.zip',  # [695M]
+microdados = ['https://download.inep.gov.br/microdados/microdados_enem_2020.zip',
+              'https://download.inep.gov.br/microdados/microdados_enem_2019.zip',  # [695M]
               'https://download.inep.gov.br/microdados/microdados_enem2018.zip',  # [709M]
               'https://download.inep.gov.br/microdados/microdados_enem2017.zip',
               'https://download.inep.gov.br/microdados/microdados_enem2016.zip',
@@ -64,3 +65,4 @@ if len(sys.argv) > 1 and sys.argv[1] in names:
   zip_ref.extractall(sys.argv[1])
   os.system("rm " + file)
   zip_ref.close()
+  os.rename(sys.argv[1]+'/PROVAS E GABARITOS', sys.argv[1]+'/PROVAS_E_GABARITOS')

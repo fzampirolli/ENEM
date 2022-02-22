@@ -186,7 +186,7 @@ def includeButtonsQuestions(f):
   html2.close()
 
 
-names = [str(i).zfill(4) for i in range(2014, 2020)]
+names = [str(i).zfill(4) for i in range(2014, 2021)]
 for pasta in range(len(sys.argv)):
   if sys.argv[pasta] in names:
     url = './' + sys.argv[pasta] + '/'
@@ -207,7 +207,7 @@ for pasta in range(len(sys.argv)):
           print(p)
           dirFiles = glob.glob(p + '/*.pdf')
           for f in dirFiles:
-            if not ('Gab_' in f or '_GAB_' in f or 'AMPLIADA' in f or '_LIBRAS' in f or '_LEDOR' in f):
+            if not ('DIGITAL' in f or 'Gab_' in f or '_GAB_' in f or 'AMPLIADA' in f or '_LIBRAS' in f or '_LEDOR' in f):
               for c in CORES:
                 if c in f:
                   if 'html' in sys.argv:

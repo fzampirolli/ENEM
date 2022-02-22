@@ -159,7 +159,7 @@ def genStatistics(pasta):
     draw_signoits(path0, f, mat)
 
 
-names = [str(i).zfill(4) for i in range(2014, 2020)]
+names = [str(i).zfill(4) for i in range(2014, 2021)]
 for pasta in range(len(sys.argv)):
   if sys.argv[pasta] in names:
     genStatistics(sys.argv[pasta])  # ano

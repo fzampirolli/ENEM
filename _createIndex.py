@@ -50,7 +50,7 @@ def criarArquivo(ano):
     file.write(texto)
 
 
-names = [str(i).zfill(4) for i in range(2014, 2020)]
+names = [str(i).zfill(4) for i in range(2014, 2021)]
 for pasta in range(len(sys.argv)):
   if sys.argv[pasta] in names:
     criarArquivo(sys.argv[pasta])
