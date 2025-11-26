@@ -1,4 +1,6 @@
 #!bin/bash
+# exemplo de uso
+# ./__all.sh 2024 10000
 
 echo "ano: $1"
 echo "tamanho da amostra: $2"

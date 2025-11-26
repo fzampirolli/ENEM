@@ -74,7 +74,7 @@ def getGabs(gab):
   return getGabCor(df)
 
 
-names = [str(i).zfill(4) for i in range(2014, 2021)]
+names = [str(i).zfill(4) for i in range(2014, 2020)]
 for pasta in range(len(sys.argv)):
   if sys.argv[pasta] in names:
     url = './' + sys.argv[pasta] + '/'

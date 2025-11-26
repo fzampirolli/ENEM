@@ -48,7 +48,7 @@ def alteraChave(ano, CHAVE):
       json.dump(data, outfile, indent=2)
 
 
-names = [str(i).zfill(4) for i in range(2014, 2021)]
+names = [str(i).zfill(4) for i in range(2014, 2020)]
 for pasta in range(len(sys.argv)):
   if sys.argv[pasta] in names:
     alteraChave(sys.argv[pasta], 'images')

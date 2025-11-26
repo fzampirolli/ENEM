@@ -2,8 +2,8 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="vision.ufabc.edu.br" id="e8705792-6fce-4a64-a521-8b85aa652490" port="22" nameFormat="DESCRIPTIVE" username="fz" />
-      <sshConfig authType="PASSWORD" host="mctest.ufabc.edu.br" id="77140b70-01b9-4367-bef7-033162990af7" port="22" nameFormat="DESCRIPTIVE" username="ufabc" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="vision.ufabc.edu.br" id="e8705792-6fce-4a64-a521-8b85aa652490" port="22" nameFormat="DESCRIPTIVE" username="fz" />
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="mctest.ufabc.edu.br" id="77140b70-01b9-4367-bef7-033162990af7" port="22" nameFormat="DESCRIPTIVE" username="ufabc" />
     </configs>
   </component>
 </project>

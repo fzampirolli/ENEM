@@ -3,7 +3,7 @@
 echo "passar 2019 e tamanho da amostra como parametros desse bash"
 
 echo "Download dos microdados de 2019"
-python enem_download.py 2019
+python _enem_download.py 2019
 
 echo "Entrada: 2019/DADOS/ITENS_PROVA_2019.csv"
 echo "Saída: 2019/DADOS/ITENS_PROVA_2019.json"
